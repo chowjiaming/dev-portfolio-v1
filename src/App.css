@@ -1,0 +1,14 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 2.6fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    '.'
+    '.'
+    '.';
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--font);
+}

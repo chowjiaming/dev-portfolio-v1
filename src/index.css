@@ -10,6 +10,26 @@
   box-sizing: inherit;
 }
 
+[data-theme='dark'] {
+  --background: #171c28;
+  --accent: #1d2433;
+  --font: #d7dce2;
+  --primary: #c3a6ff;
+  --secondary: #bae67e;
+  --tertiary: #5ccfe6;
+  --error: #ef6b73;
+}
+
+[data-theme='light'] {
+  --background: #d7dce2;
+  --accent: #8695b7;
+  --font: #171c28;
+  --primary: #c3a6ff;
+  --secondary: #bae67e;
+  --tertiary: #5ccfe6;
+  --error: #ef6b73;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
